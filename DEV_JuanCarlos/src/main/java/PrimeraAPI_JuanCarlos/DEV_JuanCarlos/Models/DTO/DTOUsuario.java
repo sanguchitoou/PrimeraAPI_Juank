@@ -11,8 +11,8 @@ import lombok.Setter;
 @Table(name = "TBUSUARIO")
 public class DTOUsuario {
 
-    @Getter @Setter @Column(name = "IDUSUARIO")
     @Id
+    @Getter @Setter @Column(name = "IDUSUARIO")
     private Long id;
 
     @Getter @Setter @Column(name = "NOMBRE")

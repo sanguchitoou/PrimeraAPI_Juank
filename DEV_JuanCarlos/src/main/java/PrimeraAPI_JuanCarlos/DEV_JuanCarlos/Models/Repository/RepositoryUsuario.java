@@ -5,9 +5,11 @@ import PrimeraAPI_JuanCarlos.DEV_JuanCarlos.Models.DTO.DTOUsuario;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import jakarta.transaction.Transactional;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+@Repository
 @Transactional //Librería depende de jakarta-transaction-API
 public class RepositoryUsuario implements InterfaceUsuario{
 
